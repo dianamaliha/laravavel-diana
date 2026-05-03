@@ -1,18 +1,22 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8>
-        <meta name="viewport" content="widht=device-width, initial-scale=1.0">
-        @vite('resources/css/app.css')
-        <tittle>@yield('tittle')</tittle>
-        </head>
-        <body>
-        @include('partials.header')
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    @vite('resources/css/app.css')
 
-        <main class="">
-            @yield('content')
-        </main>
-        @include('partials.footer')
-    </body>
+    <title>@yield('title')</title>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-100">
 
-</html
+    @include('partials.header')
+
+    <main class="flex-grow container mx-auto p-6">
+        @yield('content')
+    </main>
+
+    @include('partials.footer')
+
+</body>
+</html>

@@ -8,3 +8,6 @@ use App\Http\Controllers\KontakController;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/profil', [ProfilController::class, 'index']);
 Route::get('/kontak', [KontakController::class, 'index']);
+Route::get('/donasi', function () {
+    return view('donasi');
+});

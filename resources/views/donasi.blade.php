@@ -14,9 +14,10 @@
         Silakan pilih jumlah donasi yang ingin kamu berikan 💚
     </p>
 
-    <button class="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600">
-        Donasi Sekarang
-    </button>
+    <a href="/campaign"
+   class="bg-green-500 text-white px-6 py-2 rounded-lg hover:bg-green-600">
+    Donasi Sekarang
+    </a>
 
 </div>
 

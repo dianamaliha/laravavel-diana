@@ -5,7 +5,7 @@
 @section('content')
 
 <h1 class="text-3xl font-bold mb-6">
-    Daftar Campaign
+    Daftar Kampanye
 </h1>
 
 <table class="w-full border">

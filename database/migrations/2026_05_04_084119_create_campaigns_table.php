@@ -15,7 +15,7 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('description');
-            $table->integer('target_donation');
+            $table->string('target_donation');
             $table->integer('collected_donation')->default(0);
             $table->date('deadline');
             $table->timestamps();

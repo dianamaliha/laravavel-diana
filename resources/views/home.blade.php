@@ -14,9 +14,6 @@
         Mari berbagi kebaikan dan bantu sesama melalui donasi.
     </p>
 
-    <a href="/campaign" class="bg-green-500 text-white px-6 py-3 rounded-lg hover:bg-green-600">
-        Donasi Sekarang
-    </a>
 
 </div>
 
